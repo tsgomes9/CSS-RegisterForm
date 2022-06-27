@@ -1,0 +1,97 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+input:focus{
+  outline-color: rgb(128, 181, 224);
+}
+
+input {
+  width: 100%;
+  height: 3rem;
+  padding: 8px 8px 8px 16px ;
+  border-style: none;
+  border-radius: 8px;
+  margin: auto;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.container{
+  margin: auto;
+
+  background: rgb(246, 246, 246);
+
+  max-width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.leftSide{
+  background: rgb(255, 255, 255);
+  width: 540px;
+  height: 550px;
+}
+
+.rightSide{
+  background: rgb(230, 230, 230);
+  width: 540px;
+  height: 550px;
+  padding: 30px 3%;
+  text-align: left
+}
+
+.title h1{
+  font-weight: 800;
+  color: rgb(23, 99, 162);
+  font-size: 1.5rem;
+}
+
+.dataForm{
+  margin: 12px 0;
+  display: flex;
+  flex-flow: row wrap;
+  /* justify-content: le; */
+}
+
+.dataForm label{
+  text-align: left;
+  justify-content: left;
+  font-weight: 300;
+  margin: 15px 0 10px 0
+}
+
+.registerForm{
+  display: flex;
+  height: 3rem;
+  margin-top: 20px;
+  /* margin-bottom: 40px; */
+  background:rgb(23, 99, 162);
+  align-items: center;
+  justify-content: center;
+}
+
+.registerForm a{
+  color: white;
+  font-weight: 800
+}
+
+.registerForm:hover{
+  color: white;
+  font-weight: 800;
+  background: rgb(10, 77, 133);
+  cursor: pointer;
+}
+
+
